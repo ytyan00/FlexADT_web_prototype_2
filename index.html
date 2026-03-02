@@ -333,13 +333,14 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
+          <img
+            src="static/images/teaser.png"
+            alt="Overview of FlexADT system"
+            class="abstract-image"
+          >
       <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Informed by interviews with care providers and our experience with assistive technologies, we present FlexATD—a modular toolkit that customizes existing devices (e.g., wheelchairs, patient lifts, beds) with plug-and-play control, actuation, and perception modules, supported by a context-aware, user-centered interface.
       </h2>
     </div>
   </div>
@@ -354,11 +355,6 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
-          <img
-            src="static/images/teaser.png"
-            alt="Overview of FlexADT system"
-            class="abstract-image"
-          >
           <p>
             Millions of people rely on Assistive Technology Devices (ATDs) worldwide, yet ATDs often fail to meet care recipients’ (CRs') needs and leave caregivers (CG) with a substantial physical workload. To address this, we present FlexADT, a toolkit that transforms common ATDs into customizable instrumented agents. FlexADT provides modular plug-and-play hardware add-ons for sensing and actuation, paired with software that provides perception, planning, and control; both are designed for integration with powered wheelchairs, beds, and patient lifts. On top of this full-stack infrastructure, an LLM-powered interface leverages user functionality (e.g. range of motion), behavior (e.g. preferences), and environment (e.g. spatial layout) to recommend instrumentation for flexible, adaptive ATD customization. We evaluate FlexADT in two areas: (1) demonstrating adaptability across diverse CR personas and (2) comparing kit instrumentation versus standard ATDs in a bed-to-wheelchair transfer user study, where the instrumented ATDs reduced physical workload without increasing cognitive demand.
           </p>
@@ -374,17 +370,7 @@
 <section class="hero is-small">
   <div class="hero-body">
     <h2 class="title is-3 has-text-centered">Toolkit Modules</h2>
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-full">
-          <div class="content has-text-justified">
-            <p>
-              The Toolkit Modules contain <span class="highlight-word">plug-and-play</span> hardware components designed to upgrade existing assistive devices into adaptable, instrumented systems. Organized across  <span class="highlight-word">control, actuation, and perception</span>, each module extends device functionality while remaining interoperable with powered wheelchairs, patient lifts, and hospital beds. The modules are pre-assembled and ready to deploy, reducing the need for engineering expertise.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item">
@@ -422,6 +408,25 @@
         </div>
       </div>
     </div>
+
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full">
+          <div class="content has-text-justified">
+            <p>
+              The Toolkit Modules contain <span class="highlight-word">plug-and-play</span> hardware components designed to upgrade existing assistive devices into adaptable, instrumented systems. Organized across  <span class="highlight-word">control, actuation, and perception</span>, each module extends device functionality while remaining interoperable with powered wheelchairs, patient lifts, and hospital beds. The modules are pre-assembled and ready to deploy, reducing the need for engineering expertise.
+            </p>
+          </div>
+          <img
+            src="static/images/tools.png"
+            alt="Overview of FlexADT system"
+            class="abstract-image"
+          >
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </section>
 <!-- End image carousel -->
@@ -435,17 +440,7 @@
     <div class="container">
       <!-- Paper video. -->
       <h2 class="title is-3 has-text-centered">Context-aware User Interface</h2>
-      <div class="container is-max-desktop">
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-full">
-            <div class="content has-text-justified">
-              <p>
-                The Context-Aware User Interface guides <span class="highlight-word"> caregivers and care recipients</span> through the process of customizing assistive devices based on caregiving contexts. By capturing user abilities, caregiving goals, and environmental constraints, it generates module recommendations and explains the rationale behind each suggestion. The interface makes technical trade-offs transparent and supports informed decision-making <span class="highlight-word">without requiring engineering expertise</span>.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
@@ -454,6 +449,23 @@
              <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
             <source src="static/videos/ui.mp4" type="video/mp4">
             </video>
+          </div>
+        </div>
+      </div>
+
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full">
+            <div class="content has-text-justified">
+              <p>
+                The Context-Aware User Interface guides <span class="highlight-word"> caregivers and care recipients</span> through the process of customizing assistive devices based on caregiving contexts. By capturing user abilities, caregiving goals, and environmental constraints, it generates module recommendations and explains the rationale behind each suggestion. The interface makes technical trade-offs transparent and supports informed decision-making <span class="highlight-word">without requiring engineering expertise</span>.
+              </p>
+            </div>
+            <img
+              src="static/images/ui.png"
+              alt="Overview of FlexADT system"
+              class="abstract-image"
+            >
           </div>
         </div>
       </div>
@@ -467,7 +479,26 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
+      <h2 class="title is-3 has-text-centered">Evaluation with Informal Caregivers and Occupational Therapy Students</h2>
+                  <img
+              src="static/images/results_final.png"
+              alt="Overview of FlexADT system"
+              class="abstract-image"
+            >
+
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full">
+            <div class="content has-text-justified">
+              <p>
+                In a within-subjects (15 Participants) bed-to-wheelchair transfer study, users using FlexATD reported significantly lower perceived physical workload compared to standard devices, without increased cognitive demand. Participants also rated FlexATD as more acceptable and supportive in practice. Motion-capture data further confirmed reduced overall body movement, indicating measurable reductions in physical effort.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
           <!-- TODO: Add poster image for better preview -->
@@ -497,7 +528,40 @@
 <!-- End video carousel -->
 
 
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3 has-text-centered">FlexADT's Intergration With Robot system</h2>
 
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full">
+            <div class="content has-text-justified">
+              <p>
+                Our toolkit extends beyond caregiver–recipient dyads by supporting fully autonomous collaboration between assistive devices and robotic agents, demonstrated through integration with a Kinova 7-DoF robot arm for assisted transferring.
+              </p>
+            </div>
+              <iframe
+                id="video2"
+                width="800"
+                height="500"
+                src="https://www.youtube.com/embed/JQHVlJ8No4Q"
+                title="CART-MPC"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+              </iframe>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
 
 
 
