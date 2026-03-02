@@ -118,6 +118,7 @@
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   
   <!-- Structured Data for Academic Papers -->
   <script type="application/ld+json">
@@ -375,38 +376,53 @@
     <h2 class="title is-3 has-text-centered">Toolkit Modules</h2>
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+        <div class="item">
+          <model-viewer
+            src="static/cad/base_cam_mount_assembly.glb"
+            alt="CAD model of base cam mount assembly"
+            camera-controls
+            auto-rotate
+            loading="lazy"
+            class="cad-viewer"
+          ></model-viewer>
+          <h2 class="subtitle has-text-centered">Base cam mount assembly.</h2>
+        </div>
+        <div class="item">
+          <model-viewer
+            src="static/cad/hoyer_base_cam.glb"
+            alt="CAD model of Hoyer base cam"
+            camera-controls
+            auto-rotate
+            loading="lazy"
+            class="cad-viewer"
+          ></model-viewer>
+          <h2 class="subtitle has-text-centered">Hoyer base cam.</h2>
+        </div>
+        <div class="item">
+          <model-viewer
+            src="static/cad/hoyer_with_base_cam.glb"
+            alt="CAD model of Hoyer with base cam"
+            camera-controls
+            auto-rotate
+            loading="lazy"
+            class="cad-viewer"
+          ></model-viewer>
+          <h2 class="subtitle has-text-centered">Hoyer with base cam.</h2>
+        </div>
+        <div class="item">
+          <model-viewer
+            src="static/cad/reliant_450.glb"
+            alt="CAD model of Reliant 450"
+            camera-controls
+            auto-rotate
+            loading="lazy"
+            class="cad-viewer"
+          ></model-viewer>
+          <h2 class="subtitle has-text-centered">Reliant 450.</h2>
+        </div>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
 <!-- End image carousel -->
 
@@ -537,3 +553,5 @@
 
   </body>
   </html>
+
+

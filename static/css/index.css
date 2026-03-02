@@ -763,3 +763,19 @@ html, body, body * {
   margin: 0 auto 1.25rem auto; /* centers image, adds space before text */
   border-radius: 12px;
 }
+
+.cad-viewer {
+  display: block;
+  width: 100%;
+  height: 320px;
+  background: #f8fafc;
+  border-radius: var(--border-radius);
+}
+
+@media screen and (max-width: 768px) {
+  .cad-viewer {
+  display: block;
+    height: 240px;
+  }
+}
+
