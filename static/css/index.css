@@ -310,13 +310,14 @@ body {
 
 /* Section Titles */
 .title.is-3 {
-  font-family: 'Inter', sans-serif !important;
+  font-family: 'Palatino Linotype', sans-serif !important;
   font-weight: 700 !important;
   color: var(--text-primary);
   margin-bottom: 2rem !important;
   position: relative;
   padding-bottom: 1rem;
 }
+
 
 .title.is-3::after {
   content: '';
@@ -750,4 +751,15 @@ a:focus {
 }
 
 
+html, body, body * {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif !important;
+}
 
+
+.abstract-image {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 1.25rem auto; /* centers image, adds space before text */
+  border-radius: 12px;
+}

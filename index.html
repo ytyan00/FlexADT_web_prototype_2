@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <style>
+    html, body {
+      font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+    }
+  </style>
+
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -144,7 +152,7 @@
     "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
     "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
     "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "abstract": "Millions of people rely on Assistive Technology Devices (ATDs) worldwide, yet ATDs often fail to meet care recipients’ (CRs') needs and leave caregivers (CG) with a substantial physical workload. To address this, we present \kitname{}, a toolkit that transforms common ATDs into customizable instrumented agents. \kitname{} provides modular plug-and-play hardware add-ons for sensing and actuation, paired with software that provides perception, planning, and control; both are designed for integration with powered wheelchairs, beds, and patient lifts. On top of this full-stack infrastructure, an LLM-powered interface leverages user functionality (e.g. range of motion), behavior (e.g. preferences), and environment (e.g. spatial layout) to recommend instrumentation for flexible, adaptive ATD customization. We evaluate \kitname{} in two areas: (1) demonstrating adaptability across diverse CR personas and (2) comparing kit instrumentation versus standard ATDs in a bed-to-wheelchair transfer user study, where the instrumented ATDs reduced physical workload without increasing cognitive demand.",
     "citation": "BIBTEX_CITATION_HERE",
     "isAccessibleForFree": true,
     "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -341,12 +349,17 @@
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <div class="column is-full">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
+          <img
+            src="static/images/teaser.png"
+            alt="Overview of FlexADT system"
+            class="abstract-image"
+          >
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Millions of people rely on Assistive Technology Devices (ATDs) worldwide, yet ATDs often fail to meet care recipients’ (CRs') needs and leave caregivers (CG) with a substantial physical workload. To address this, we present FlexADT, a toolkit that transforms common ATDs into customizable instrumented agents. FlexADT provides modular plug-and-play hardware add-ons for sensing and actuation, paired with software that provides perception, planning, and control; both are designed for integration with powered wheelchairs, beds, and patient lifts. On top of this full-stack infrastructure, an LLM-powered interface leverages user functionality (e.g. range of motion), behavior (e.g. preferences), and environment (e.g. spatial layout) to recommend instrumentation for flexible, adaptive ATD customization. We evaluate FlexADT in two areas: (1) demonstrating adaptability across diverse CR personas and (2) comparing kit instrumentation versus standard ATDs in a bed-to-wheelchair transfer user study, where the instrumented ATDs reduced physical workload without increasing cognitive demand.
           </p>
         </div>
       </div>
@@ -359,6 +372,7 @@
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
+    <h2 class="title is-3 has-text-centered">Toolkit Modules</h2>
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
