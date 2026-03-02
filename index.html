@@ -374,19 +374,19 @@
 <section class="hero is-small">
   <div class="hero-body">
     <h2 class="title is-3 has-text-centered">Toolkit Modules</h2>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full">
+          <div class="content has-text-justified">
+            <p>
+              The Toolkit Modules contain <span class="highlight-word">plug-and-play</span> hardware components designed to upgrade existing assistive devices into adaptable, instrumented systems. Organized across  <span class="highlight-word">control, actuation, and perception</span>, each module extends device functionality while remaining interoperable with powered wheelchairs, patient lifts, and hospital beds. The modules are pre-assembled and ready to deploy, reducing the need for engineering expertise.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-        <div class="item">
-          <model-viewer
-            src="static/cad/base_cam_mount_assembly.glb"
-            alt="CAD model of base cam mount assembly"
-            camera-controls
-            auto-rotate
-            loading="lazy"
-            class="cad-viewer"
-          ></model-viewer>
-          <h2 class="subtitle has-text-centered">Base cam mount assembly.</h2>
-        </div>
         <div class="item">
           <model-viewer
             src="static/cad/hoyer_base_cam.glb"
@@ -396,7 +396,7 @@
             loading="lazy"
             class="cad-viewer"
           ></model-viewer>
-          <h2 class="subtitle has-text-centered">Hoyer base cam.</h2>
+          <h2 class="subtitle has-text-centered">Patient Lift with Powered Base Module</h2>
         </div>
         <div class="item">
           <model-viewer
@@ -407,18 +407,18 @@
             loading="lazy"
             class="cad-viewer"
           ></model-viewer>
-          <h2 class="subtitle has-text-centered">Hoyer with base cam.</h2>
+          <h2 class="subtitle has-text-centered">Patient Lift with RealSense D455-Based Perception Module</h2>
         </div>
         <div class="item">
           <model-viewer
-            src="static/cad/reliant_450.glb"
+            src="static/cad/sling_cam_bar_base_lift.glb"
             alt="CAD model of Reliant 450"
             camera-controls
             auto-rotate
             loading="lazy"
             class="cad-viewer"
           ></model-viewer>
-          <h2 class="subtitle has-text-centered">Reliant 450.</h2>
+          <h2 class="subtitle has-text-centered">Patient Lift with Powered Hanger Bar, Powered Base, and Perception Module</h2>
         </div>
       </div>
     </div>
@@ -434,7 +434,18 @@
   <div class="hero-body">
     <div class="container">
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <h2 class="title is-3 has-text-centered">Context-aware User Interface</h2>
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full">
+            <div class="content has-text-justified">
+              <p>
+                The Context-Aware User Interface guides <span class="highlight-word"> caregivers and care recipients</span> through the process of customizing assistive devices based on caregiving contexts. By capturing user abilities, caregiving goals, and environmental constraints, it generates module recommendations and explains the rationale behind each suggestion. The interface makes technical trade-offs transparent and supports informed decision-making <span class="highlight-word">without requiring engineering expertise</span>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
@@ -553,6 +564,7 @@
 
   </body>
   </html>
+
 
 
 

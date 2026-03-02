@@ -779,3 +779,8 @@ html, body, body * {
   }
 }
 
+
+.highlight-word {
+  color: #1383ce; /* choose any color */
+  font-weight: 700;
+}
